@@ -58,8 +58,13 @@ h2 {
     background-color:white;
   }
   
+  .highlightFish {
+    background-color: darkgoldenrod;
+    color: lightgoldenrodyellow;
+  }
+
   .travel_tips {
-      border: 1px solid blue;
+    border: 2px solid goldenrod;
   }
 
   .nav_links {
