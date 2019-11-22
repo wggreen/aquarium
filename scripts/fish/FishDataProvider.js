@@ -10,8 +10,8 @@ const fishCollection = [
         species: "Orange Clownfish",
         location: "Caribbean",
         length: 3,
-        food: ["algae", "crustaceans"],
-        image: "styles\main\fish-1.jpg"
+        food: ["algae", " crustaceans"],
+        image: "./styles/main/fish-1.jpg"
     },
     {
         name: "Bluey",
@@ -19,7 +19,7 @@ const fishCollection = [
         location: "Fiji",
         length: 4,
         food: ["shrimp", "coral"],
-        image: "styles\main\fish-2.jpg"
+        image: "./styles/main/fish-2.jpg"
 
     },
     {
@@ -28,7 +28,7 @@ const fishCollection = [
         location: "Indian Ocean",
         length: 2,
         food: ["kelp", "plankton"],
-        image: "styles\main\fish-3.jpg"
+        image: "./styles/main/fish-3.jpg"
 
     },
     {
@@ -37,7 +37,7 @@ const fishCollection = [
         location: "Gulf of Mexico",
         length: 1,
         food: ["flakes"],
-        image: "styles\main\fish-4.jpg"
+        image: "./styles/main/fish-4.jpg"
 
     },
     {
@@ -46,7 +46,7 @@ const fishCollection = [
         location: "Bora Bora",
         length: 5,
         food: ["whales", "sharks"],
-        image: "styles\main\fish-5.jpg"
+        image: "./styles/main/fish-5.jpg"
 
     },
     {
@@ -55,7 +55,7 @@ const fishCollection = [
         location: "Chernobyl",
         length: 7,
         food: ["toxic waste"],
-        image: "styles\main\fish-6.jpg"
+        image: "./styles/main/fish-6.jpg"
 
     }
 ]   
