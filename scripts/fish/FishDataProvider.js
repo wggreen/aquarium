@@ -9,7 +9,7 @@ const fishCollection = [
         name: "Bart",
         species: "Orange Clownfish",
         location: "Caribbean",
-        length: 3,
+        length: "3",
         food: ["algae", " crustaceans"],
         image: "./styles/main/fish-1.jpg"
     },
@@ -17,17 +17,17 @@ const fishCollection = [
         name: "Bluey",
         species: "Blue Clownfish",
         location: "Fiji",
-        length: 4,
-        food: ["shrimp", "coral"],
+        length: "4",
+        food: ["shrimp", " coral"],
         image: "./styles/main/fish-2.jpg"
 
     },
     {
-        name: "Old Yeller",
+        name: "Old-Yeller",
         species: "Yellow Clownfish",
         location: "Indian Ocean",
-        length: 2,
-        food: ["kelp", "plankton"],
+        length: "2",
+        food: ["kelp", " plankton"],
         image: "./styles/main/fish-3.jpg"
 
     },
@@ -35,7 +35,7 @@ const fishCollection = [
         name: "Bighead",
         species: "Orange Goldfish",
         location: "Gulf of Mexico",
-        length: 1,
+        length: "1",
         food: ["flakes"],
         image: "./styles/main/fish-4.jpg"
 
@@ -44,8 +44,8 @@ const fishCollection = [
         name: "Scaly",
         species: "Scaly Clownfish",
         location: "Bora Bora",
-        length: 5,
-        food: ["whales", "sharks"],
+        length: "5",
+        food: ["whales", " sharks"],
         image: "./styles/main/fish-5.jpg"
 
     },
@@ -53,7 +53,7 @@ const fishCollection = [
         name: "Twins",
         species: "Conjoined Clownfish",
         location: "Chernobyl",
-        length: 7,
+        length: "7",
         food: ["toxic waste"],
         image: "./styles/main/fish-6.jpg"
 

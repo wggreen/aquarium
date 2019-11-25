@@ -4,8 +4,8 @@
  */
 
 import LocationListComponent from "./LocationList.js"
-//import initializeDetailButtonEvents from './locations/dialogs.js/index.js.js'
+import initializeDetailButtonEvents from './dialogs.js/'
 
 
 LocationListComponent()
-//initializeDetailButtonEvents()
+initializeDetailButtonEvents()

@@ -7,14 +7,14 @@
    const locationCollection = [
     {
         image: "./styles/locations/island.jpg",
-        name: "Cancun, Mexico",
+        name: "Cancun",
         lat_long: "Latitude: 15.656893, Longitude: -170.319836",
         climate: "Climate: Tropical",
         airport: "Nearest airport: Cancun International Airport"
     },
     {
         image: "./styles/locations/island.jpg",
-        name: "Bora Bora",
+        name: "Bora-Bora",
         lat_long: "Latitutde: 1123.456, Longitude: 789.101112",
         climate: "Climate: Tundra",
         airport: "Nearest airport: Bora Bora International Airport"
@@ -35,14 +35,14 @@
     },
     {
         image: "./styles/locations/island.jpg",
-        name: "Island from Castaway",
+        name: "Island-from-Castaway",
         lat_long: "Latitutde: 1123.456, Longitude: 789.101112",
         climate: "Climate: Wilson!!!",
         airport: "Nearest airport: ???"
     },
     {
         image: "./styles/locations/island.jpg",
-        name: "Bikini Bottom",
+        name: "Bikini-Bottom",
         lat_long: "Latitutde: 1123.456, Longitude: 789.101112",
         climate: "Climate: Underwater",
         airport: "Nearest airport: Rock Bottom"

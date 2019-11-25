@@ -13,16 +13,16 @@ const LocationListComponent = () => {
     const locations = useLocation()
 
    let allLocationHTML = ""
-    
     for (const location of locations) {
        const locationHTML = LocationComponent(location)
-       allLocationHTML += locationHTML
     }
 
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
         <section class="locations">
-            ${allLocationHTML}
+            ${
+                locations.map(location => LocationComponent(location)).join("")
+            }
         </section>
     `
 }

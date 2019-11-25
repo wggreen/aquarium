@@ -20,75 +20,75 @@ h2 {
     margin-bottom: 25px;
 }
   
-  img {
-    width: 100%;
-    max-height: 100%;
-  }
+img {
+  width: 100%;
+  max-height: 100%;
+}
 
-  aside {
-    width: 17.5%;
-    border: 1px solid red;
-    padding: 5px;
-    background-color: white;
+aside {
+  width: 17.5%;
+  border: 1px solid red;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.location_content {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 40%;
-  }
-  
-  .content {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
+}
 
-  .location_content {
-      display: flex;
-      flex-direction: column;
-  }
+.locations_card {
+  border: 2px solid rgb(233, 194, 94);
+  margin: 0px 5px;
+  padding: 3px;
+}
 
-  .locations_card {
-    border: 2px solid rgb(233, 194, 94);
-    margin: 0px 5px;
-    padding: 3px;
-  }
+.fishList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
 
-  .fishList {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-  }
+.fish {
+  flex-basis: 30%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  background-color:white;
+}
 
-  .fish {
-    flex-basis: 30%;
-    border: 1px solid black;
-    margin-bottom: 5px;
-    background-color:white;
-  }
-  
-  .highlightFish {
-    background-color: darkgoldenrod;
-    color: lightgoldenrodyellow;
-  }
+.highlightFish {
+  background-color: darkgoldenrod;
+  color: lightgoldenrodyellow;
+}
 
-  .travel_tips {
-    border: 2px solid goldenrod;
-  }
+.travel_tips {
+  border: 2px solid goldenrod;
+}
 
-  .nav_links {
-    float: right;
-    background-color: aquamarine;
-  }
+.nav_links {
+  float: right;
+  background-color: aquamarine;
+}
 
-  .nav_links a {
-    border: 2px solid gray;
-    border-radius: 5px;
-  }
+.nav_links a {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
 
-  .nav_span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-  }
+.nav_span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 
 .locations {
   display: flex;

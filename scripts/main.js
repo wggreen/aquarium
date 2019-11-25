@@ -10,6 +10,6 @@ import TipListComponent from  './tips/TipList.js'
 
 FishListComponent()
 TipListComponent()
-//initializeDetailButtonEvents()
+initializeDetailButtonEvents()
 addMouseOverEventListeners()
 addMouseOverBorder()

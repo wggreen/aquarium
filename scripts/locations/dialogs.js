@@ -15,51 +15,51 @@ const initializeDetailButtonEvents = () => {
 
 
     // You will be writing code below this line
-    document.querySelector("#button--cancun").addEventListener(
+    document.querySelector("#button--Cancun").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--cancun")
+            const theDialog = document.querySelector("#details--Cancun")
             theDialog.showModal()
         }
     )  
 
-    document.querySelector("#button--bora").addEventListener(
+    document.querySelector("#button--Bora-Bora").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--bora")
+            const theDialog = document.querySelector("#details--Bora-Bora")
             theDialog.showModal()
         }
     )  
 
-    document.querySelector("#button--antarctica").addEventListener(
+    document.querySelector("#button--Antarctica").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--antarctica")
+            const theDialog = document.querySelector("#details--Antarctica")
             theDialog.showModal()
         }
     )  
 
-    document.querySelector("#button--margaritaville").addEventListener(
+    document.querySelector("#button--Margaritaville").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--margaritaville")
+            const theDialog = document.querySelector("#details--Margaritaville")
             theDialog.showModal()
         }
     )
     
     
-    document.querySelector("#button--castaway").addEventListener(
+    document.querySelector("#button--Island-from-Castaway").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--castaway")
+            const theDialog = document.querySelector("#details--Island-from-Castaway")
             theDialog.showModal()
         }
     )  
 
-    document.querySelector("#button--spongebob").addEventListener(
+    document.querySelector("#button--Bikini-Bottom").addEventListener(
         "click",
         theClickEvent => {
-            const theDialog = document.querySelector("#details--spongebob")
+            const theDialog = document.querySelector("#details--Bikini-Bottom")
             theDialog.showModal()
         }
     )  
