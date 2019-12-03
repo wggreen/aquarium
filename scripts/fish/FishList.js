@@ -8,14 +8,9 @@ import FishComponent from './Fish.js'
 
 const FishListComponent = () => {
 
-    // Get a reference to the `<article class="fishList">` element
+    // Get a reference to the `<section class="fishList">` element
     const contentElement = document.querySelector(".fishList")
     const fishes = useFish()
-
-   let allFishHTML = ""
-    for (const fish of fishes) {
-       const fishHTML = FishComponent(fish)
-    }
 
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
